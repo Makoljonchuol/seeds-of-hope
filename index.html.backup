@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Seeds of Hope - Supporting Refugee Children in Kakuma</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Navigation Bar -->
+   <nav class="navbar">
+       <div class="nav-container">
+           <div class="logo">Seeds of Hope</div>
+           <ul class="nav-menu">
+               <li><a href="#home" class="nav-link">Home</a></li>
+               <li><a href="#story" class="nav-link">Our Story</a></li>
+               <li><a href="#children" class="nav-link">The Children</a></li>
+               <li><a href="#needs" class="nav-link">Financial Needs</a></li>
+               <li><a href="#support" class="nav-link">Support Us</a></li>
+               <li><a href="#contact" class="nav-link">Contact</a></li>
+           </ul>
+           <button class="nav-toggle" id="navToggle">
+               <span></span>
+               <span></span>
+               <span></span>
+           </button>
+       </div>
+   </nav>
+
+
+   <!-- Hero Section -->
+   <section id="home" class="hero">
+       <div class="hero-overlay"></div>
+       <div class="hero-content">
+           <h1 class="hero-title animate-fade-in">Seeds of Hope</h1>
+           <p class="hero-subtitle animate-fade-in-delay">A Community-Led Project Supporting Refugee Children in Kakuma</p>
+           <p class="hero-description animate-fade-in-delay">Providing food, safety, and education for 14 children in Kakuma Refugee Camp. Locally known as <em>Makol's Boys</em> — not because they belong to me, but because we've become a family.</p>
+           <div class="hero-buttons animate-fade-in-delay-2">
+               <a href="#support" class="btn btn-primary">Support the Children</a>
+               <a href="#story" class="btn btn-secondary">Read Our Story</a>
+           </div>
+       </div>
+       <div class="scroll-indicator">
+           <span>Scroll Down</span>
+           <div class="arrow-down"></div>
+       </div>
+   </section>
+
+
+   <!-- Our Story Section -->
+   <section id="story" class="about">
+       <div class="container">
+           <h2 class="section-title">Our Story</h2>
+           <div class="about-content">
+               <div class="about-text">
+                   <h3>How It All Began (2019-2021)</h3>
+                   <p>Returning to Kakuma in June 2021, after completing my high school education, was a plunge into the unexpected. Having graduated in 2019 with high hopes for college, the sharp reality hit hard — the odds were stacked against me. The Kenyan government's policies offered limited opportunities for "foreign students" like myself.</p>
+                   
+                   <p>Desperate for a way forward, I grasped onto the chance to teach within the refugee camp. Simultaneously, I became part of the <strong>Elimisha Kakuma program</strong>, headed by three former refugees who pursued education in the United States. At the camp, I shared a bed with a fellow teacher, while fourteen other young boys in our compound looked to me for guidance and education.</p>
+                   
+                   <p>Each morning, I would go to the Elimisha Center, assuming the role of both a tech support member and a student. Weekends were dedicated to volunteering in schools and hospitals, peeling back layers of this community's reality. <strong>I discovered a harsh truth: many children in the camp faced the raw challenges of refugee life alone.</strong></p>
+                   
+                   <h3>Building a Family (2021-2023)</h3>
+                   <p>In Kakuma, numerous young souls arrive unaccompanied, thrown into a community where living alone is not an option. I met <strong>three boys</strong> who had no family, no shelter, and no support. Their names stayed with me, and their need became my responsibility.</p>
+                   
+                   <p>With community fundraising, I built a small shelter for them. We added solar panels for light and safety, provided daily meals, and enrolled them in school. Word spread. More children came — children who had lost everything but hope. <strong>At our peak, we were supporting 18 children.</strong> We taught them life skills, discipline, and community values. It wasn't perfect, but it was a home.</p>
+                   
+                   <h3>The Crisis of 2025</h3>
+                   <p>In early 2025, <strong>USAID food rations were drastically cut.</strong> The boys, classified as "extremely vulnerable," began losing their food support. Violence increased in the camp. <strong>Seven of our boys were forced to leave for their safety or survival.</strong></p>
+                   
+                   <p>Today, we support <strong>11 boys and 1 girl</strong> who remain, plus <strong>3 children from my sister's family</strong> who needed urgent care — a total of <strong>14 children</strong>. They need $400 per month for food, school supplies, and basic survival.</p>
+                   
+                   <h3>Who Are "Makol's Boys"?</h3>
+                   <p>In Kakuma, people call them <strong>Makol's Boys</strong> — not as an official name, but as a community identity. It's a nickname that grew naturally from the bond we share. It reflects connection and responsibility. As my tutor Anika Brennan would always say: <em>"Whatever you learn, teach two other people."</em></p>
+                   
+                   <p><strong>My vision is to witness these children thrive despite the adversities that swarm around them.</strong> I refuse to accept a reality where their youth becomes a liability. My aim is to foster an environment where they flourish, triumphing over circumstances that unfairly put the odds against them.</p>
+                   
+                   <div class="mission-values">
+                       <div class="value-card">
+                           <div class="value-icon">�</div>
+                           <h4>Food Security</h4>
+                           <p>Daily meals when aid falls short</p>
+                       </div>
+                       <div class="value-card">
+                           <div class="value-icon">🎓</div>
+                           <h4>Education Support</h4>
+                           <p>School supplies, tutoring, and mentorship</p>
+                       </div>
+                       <div class="value-card">
+                           <div class="value-icon">🏠</div>
+                           <h4>Safe Housing</h4>
+                           <p>A shelter built with community care</p>
+                       </div>
+                   </div>
+               </div>
+               <div class="about-image">
+                   <img src="images/about-hero.jpg" alt="Children in Kakuma Refugee Camp">
+               </div>
+           </div>
+       </div>
+   </section>
+
+
+   <!-- The Children Section -->
+   <section id="children" class="projects">
+       <div class="container">
+           <h2 class="section-title">The Children</h2>
+           <p class="section-subtitle">Meet the 14 children Seeds of Hope supports — each with their own story, dreams, and hopes for the future</p>
+          
+           <!-- Children Grid -->
+           <div class="projects-grid">
+               <!-- Child Profile 1 -->
+               <div class="project-card">
+                   <div class="project-image">
+                       <img src="images/project1.jpg" alt="Child">
+                       <div class="project-overlay">
+                           <button class="btn-view" data-project="1">View Story</button>
+                       </div>
+                   </div>
+                   <div class="project-info">
+                       <span class="project-tag">Age 15</span>
+                       <h3>Joseph</h3>
+                       <p>Grade 7 student who dreams of becoming a teacher. One of the first three boys. Loves helping younger children with homework and wants to give back to his community.</p>
+                       <div class="project-meta">
+                           <span>📚 Grade 7</span>
+                           <span>💭 Future Teacher</span>
+                       </div>
+                   </div>
+               </div>
+
+               <!-- Child Profile 2 -->
+               <div class="project-card">
+                   <div class="project-image">
+                       <img src="images/project2.jpg" alt="Child">
+                       <div class="project-overlay">
+                           <button class="btn-view" data-project="2">View Story</button>
+                       </div>
+                   </div>
+                   <div class="project-info">
+                       <span class="project-tag">Age 13</span>
+                       <h3>Daniel</h3>
+                       <p>Grade 6 student with a passion for mathematics and science. One of the first three boys who started this journey in 2019. Dreams of becoming an engineer.</p>
+                       <div class="project-meta">
+                           <span>📚 Grade 6</span>
+                           <span>💭 Engineer</span>
+                       </div>
+                   </div>
+               </div>
+
+               <!-- Child Profile 3 -->
+               <div class="project-card">
+                   <div class="project-image">
+                       <img src="images/project3.jpg" alt="Child">
+                       <div class="project-overlay">
+                           <button class="btn-view" data-project="3">View Story</button>
+                       </div>
+                   </div>
+                   <div class="project-info">
+                       <span class="project-tag">Age 14</span>
+                       <h3>Samuel</h3>
+                       <p>Grade 7 student who loves art and creative expression. One of the original three. Dreams of studying design and helping rebuild refugee communities.</p>
+                       <div class="project-meta">
+                           <span>📚 Grade 7</span>
+                           <span>💭 Artist & Designer</span>
+                       </div>
+                   </div>
+               </div>
+
+               <!-- Child Profile 4 -->
+               <div class="project-card">
+                   <div class="project-image">
+                       <img src="images/project4.jpg" alt="Child">
+                       <div class="project-overlay">
+                           <button class="btn-view" data-project="4">View Story</button>
+                       </div>
+                   </div>
+                   <div class="project-info">
+                       <span class="project-tag">Age 12</span>
+                       <h3>Grace</h3>
+                       <p>The only girl in the home, Grade 5 student. Joined in 2022. Wants to become a nurse and help children in need across Africa. Very caring and responsible.</p>
+                       <div class="project-meta">
+                           <span>📚 Grade 5</span>
+                           <span>💭 Future Nurse</span>
+                       </div>
+                   </div>
+               </div>
+
+               <!-- Child Profile 5 -->
+               <div class="project-card">
+                   <div class="project-image">
+                       <img src="images/project5.jpg" alt="Child">
+                       <div class="project-overlay">
+                           <button class="btn-view" data-project="5">View Story</button>
+                       </div>
+                   </div>
+                   <div class="project-info">
+                       <span class="project-tag">Age 11</span>
+                       <h3>Peter</h3>
+                       <p>Grade 4 student who loves reading and storytelling. Dreams of becoming a journalist to share refugee stories and change the narrative about displaced people.</p>
+                       <div class="project-meta">
+                           <span>📚 Grade 4</span>
+                           <span>💭 Journalist</span>
+                       </div>
+                   </div>
+               </div>
+
+               <!-- Child Profile 6 -->
+               <div class="project-card">
+                   <div class="project-image">
+                       <img src="images/project6.jpg" alt="Child">
+                       <div class="project-overlay">
+                           <button class="btn-view" data-project="6">View Story</button>
+                       </div>
+                   </div>
+                   <div class="project-info">
+                       <span class="project-tag">Age 10</span>
+                       <h3>Emmanuel</h3>
+                       <p>Grade 3 student, youngest of the boys. Loves soccer and wants to play professionally one day. Brings joy and laughter to the home.</p>
+                       <div class="project-meta">
+                           <span>📚 Grade 3</span>
+                           <span>💭 Professional Athlete</span>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           
+           <div style="text-align: center; margin-top: 2rem; padding: 2rem; background: #fff7ed; border-radius: 1rem; border-left: 4px solid #f59e0b;">
+               <p style="font-size: 1.125rem; color: #78350f; max-width: 700px; margin: 0 auto; line-height: 1.8;">
+                   <strong>Plus 8 more children</strong> — including 3 from my sister's family who needed urgent care after experiencing crisis. Each child has their own story of resilience, hope, and determination to build a better future.
+               </p>
+           </div>
+       </div>
+   </section>
+               <!-- Project Card 1 -->
+               <div class="project-card" data-category="tech">
+                   <div class="project-image">
+                       <img src="images/project1.jpg" alt="Project 1">
+                       <div class="project-overlay">
+                           <button class="btn-view" data-project="1">View Details</button>
+                       </div>
+                   </div>
+                   <div class="project-info">
+                       <span class="project-tag">Technology</span>
+                       <h3>Web Development Workshop</h3>
+                       <p>Students created their first websites using HTML, CSS, and JavaScript</p>
+                       <div class="project-meta">
+                           <span>👥 25 Students</span>
+                           <span>📅 2024</span>
+                       </div>
+                   </div>
+               </div>
+
+
+               <!-- Project Card 2 -->
+               <div class="project-card" data-category="stem">
+                   <div class="project-image">
+                       <img src="images/project2.jpg" alt="Project 2">
+                       <div class="project-overlay">
+                           <button class="btn-view" data-project="2">View Details</button>
+                       </div>
+                   </div>
+                   <div class="project-info">
+                       <span class="project-tag">STEM</span>
+                       <h3>Robotics & Engineering</h3>
+                       <p>Hands-on robotics program teaching engineering principles and problem-solving</p>
+                       <div class="project-meta">
+                           <span>👥 18 Students</span>
+                           <span>📅 2024</span>
+                       </div>
+                   </div>
+               </div>
+
+
+               <!-- Project Card 3 -->
+               <div class="project-card" data-category="art">
+                   <div class="project-image">
+                       <img src="images/project3.jpg" alt="Project 3">
+                       <div class="project-overlay">
+                           <button class="btn-view" data-project="3">View Details</button>
+                       </div>
+                   </div>
+                   <div class="project-info">
+                       <span class="project-tag">Arts & Creative</span>
+                       <h3>Digital Arts Workshop</h3>
+                       <p>Creative expression through digital design, graphic arts, and multimedia</p>
+                       <div class="project-meta">
+                           <span>👥 20 Students</span>
+                           <span>📅 2024</span>
+                       </div>
+                   </div>
+               </div>
+
+
+               <!-- Project Card 4 -->
+               <div class="project-card" data-category="community">
+                   <div class="project-image">
+                       <img src="images/project4.jpg" alt="Project 4">
+                       <div class="project-overlay">
+                           <button class="btn-view" data-project="4">View Details</button>
+                       </div>
+                   </div>
+                   <div class="project-info">
+                       <span class="project-tag">Community Service</span>
+                       <h3>Community Outreach Program</h3>
+                       <p>Youth-led initiatives to support and uplift local communities</p>
+                       <div class="project-meta">
+                           <span>👥 30 Students</span>
+                           <span>📅 2024</span>
+                       </div>
+                   </div>
+               </div>
+
+
+               <!-- Project Card 5 -->
+               <div class="project-card" data-category="tech">
+                   <div class="project-image">
+                       <img src="images/project5.jpg" alt="Project 5">
+                       <div class="project-overlay">
+                           <button class="btn-view" data-project="5">View Details</button>
+                       </div>
+                   </div>
+                   <div class="project-info">
+                       <span class="project-tag">Technology</span>
+                       <h3>Mobile App Development</h3>
+                       <p>Creating mobile applications to solve real-world problems</p>
+                       <div class="project-meta">
+                           <span>👥 15 Students</span>
+                           <span>📅 2024</span>
+                       </div>
+                   </div>
+               </div>
+
+
+               <!-- Project Card 6 -->
+               <div class="project-card" data-category="stem">
+                   <div class="project-image">
+                       <img src="images/project6.jpg" alt="Project 6">
+                       <div class="project-overlay">
+                           <button class="btn-view" data-project="6">View Details</button>
+                       </div>
+                   </div>
+                   <div class="project-info">
+                       <span class="project-tag">STEM</span>
+                       <h3>Science Innovation Fair</h3>
+                       <p>Annual showcase of student research and scientific discoveries</p>
+                       <div class="project-meta">
+                           <span>👥 40 Students</span>
+                           <span>📅 2024</span>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+
+   <!-- Financial Needs Section -->
+   <section id="needs" class="impact">
+       <div class="container">
+           <h2 class="section-title">Financial Needs & Transparency</h2>
+           <p class="section-subtitle">Every dollar goes directly to the children's survival, education, and safety</p>
+          
+           <div class="budget-breakdown">
+               <h3 style="text-align: center; font-size: 1.75rem; margin-bottom: 2rem; color: #1f2937; font-family: Georgia, serif;">Monthly Budget: $400</h3>
+               
+               <div class="stats-grid">
+                   <div class="stat-card">
+                       <div class="stat-icon">🍚</div>
+                       <div class="stat-number">$200</div>
+                       <div class="stat-label">Food</div>
+                       <p style="font-size: 0.875rem; margin-top: 0.5rem; opacity: 0.9;">Maize flour ($140) + Beans ($60)</p>
+                   </div>
+                   <div class="stat-card">
+                       <div class="stat-icon">📚</div>
+                       <div class="stat-number">$25</div>
+                       <div class="stat-label">School Supplies</div>
+                       <p style="font-size: 0.875rem; margin-top: 0.5rem; opacity: 0.9;">Books, uniforms, and materials</p>
+                   </div>
+                   <div class="stat-card">
+                       <div class="stat-icon">👨‍👩‍👧‍👦</div>
+                       <div class="stat-number">$150</div>
+                       <div class="stat-label">Sister's Children</div>
+                       <p style="font-size: 0.875rem; margin-top: 0.5rem; opacity: 0.9;">Support for 3 additional children</p>
+                   </div>
+                   <div class="stat-card" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);">
+                       <div class="stat-icon">💰</div>
+                       <div class="stat-number">$400</div>
+                       <div class="stat-label">Total Monthly Need</div>
+                       <p style="font-size: 0.875rem; margin-top: 0.5rem; opacity: 0.9;">For all 14 children</p>
+                   </div>
+               </div>
+           </div>
+
+           <div style="background: #fff7ed; padding: 2rem; border-radius: 1rem; margin-top: 3rem; border-left: 4px solid #f59e0b;">
+               <h4 style="font-size: 1.25rem; margin-bottom: 1rem; color: #78350f;">Why Your Support Matters</h4>
+               <p style="color: #92400e; line-height: 1.8; margin-bottom: 1rem;">
+                   In early 2025, <strong>USAID food rations were drastically cut.</strong> The children, classified as "extremely vulnerable," lost critical food support. Violence increased in the camp, and seven boys were forced to leave for safety.
+               </p>
+               <p style="color: #92400e; line-height: 1.8;">
+                   <strong>Your monthly support of $400 keeps 14 children fed, safe, and in school.</strong> It's the difference between survival and crisis. It's the difference between giving up and thriving.
+               </p>
+           </div>
+       </div>
+   </section>
+
+
+   <!-- Support Section -->
+   <section id="support" class="contact">
+       <div class="container">
+           <h2 class="section-title">How You Can Help</h2>
+           <p class="section-subtitle">Join us in supporting these children through their journey toward a brighter future</p>
+          
+           <div class="contact-content">
+               <div class="contact-info">
+                   <h3>Monthly Sponsorship Options</h3>
+                   <div class="support-options">
+                       <div class="support-card">
+                           <div class="support-icon">📚</div>
+                           <h4>$25/month</h4>
+                           <p><strong>School Supplies</strong><br>Provide books, uniforms, and essential materials for education</p>
+                           <button class="btn btn-primary">Sponsor Supplies</button>
+                       </div>
+                       <div class="support-card">
+                           <div class="support-icon">🍽️</div>
+                           <h4>$50/month</h4>
+                           <p><strong>Food for One Child</strong><br>Ensure daily meals and nutrition for one child</p>
+                           <button class="btn btn-primary">Feed a Child</button>
+                       </div>
+                       <div class="support-card">
+                           <div class="support-icon">👨‍👩‍👧‍👦</div>
+                           <h4>$100/month</h4>
+                           <p><strong>Family Support</strong><br>Help support multiple children with food and care</p>
+                           <button class="btn btn-primary">Support Family</button>
+                       </div>
+                       <div class="support-card" style="border: 3px solid #f59e0b; background: #fff7ed;">
+                           <div class="support-icon">❤️</div>
+                           <h4 style="color: #d97706;">$400/month</h4>
+                           <p><strong>Full Month Sponsorship</strong><br>Cover all needs for all 14 children for an entire month</p>
+                           <button class="btn btn-primary" style="background: #f59e0b;">Full Sponsor</button>
+                       </div>
+                   </div>
+                   
+                   <div style="margin-top: 2rem; padding: 1.5rem; background: white; border-radius: 0.5rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                       <h4 style="margin-bottom: 1rem; color: #1f2937;">One-Time Donation</h4>
+                       <p style="color: #6b7280; margin-bottom: 1rem;">Every contribution makes a difference — whether monthly or one-time, your support changes lives.</p>
+                       <button class="btn btn-primary">Make a Donation</button>
+                   </div>
+               </div>
+              
+               <div class="contact-form-container">
+                   <h3>Partner With Us</h3>
+                   <p style="color: #6b7280; margin-bottom: 1.5rem;">Interested in becoming a long-term partner, organization sponsor, or want to discuss other ways to help? Let's talk.</p>
+                   <form id="partnerForm" class="contact-form">
+                       <div class="form-group">
+                           <label for="partner-name">Your Name *</label>
+                           <input type="text" id="partner-name" name="name" required>
+                       </div>
+                       <div class="form-group">
+                           <label for="partner-email">Email Address *</label>
+                           <input type="email" id="partner-email" name="email" required>
+                       </div>
+                       <div class="form-group">
+                           <label for="partner-interest">I'm interested in *</label>
+                           <select id="partner-interest" name="interest" required style="padding: 0.75rem; border: 2px solid #e5e7eb; border-radius: 0.5rem; font-family: inherit; font-size: 1rem;">
+                               <option value="">Select an option...</option>
+                               <option value="monthly">Monthly Sponsorship</option>
+                               <option value="onetime">One-Time Donation</option>
+                               <option value="organization">Organization Partnership</option>
+                               <option value="volunteer">Volunteering/Mentorship</option>
+                               <option value="other">Other</option>
+                           </select>
+                       </div>
+                       <div class="form-group">
+                           <label for="partner-message">Message *</label>
+                           <textarea id="partner-message" name="message" rows="5" required></textarea>
+                       </div>
+                       <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                   </form>
+               </div>
+           </div>
+       </div>
+   </section>
+
+
+   <!-- Contact Section -->
+   <section id="contact" class="contact">
+       <div class="container">
